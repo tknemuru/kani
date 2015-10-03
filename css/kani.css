@@ -1,0 +1,53 @@
+body {
+    background-color: #FCFFEB;
+    font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN',Meiryo, sans-serif;
+}
+h1 {
+    background-color: #CBAC88;
+    color: #FCFFEB;
+    height: 80px;
+    padding-top: 20px;
+}
+h2 {
+    background-color: #EDB6A3;
+    color: #FCFFEB;
+    height: 50px;
+}
+thead {
+    background-color: #EDB6A3;
+    color: #FCFFEB;
+}
+
+.sub-container {
+    margin-top: 20px;
+}
+.explain {
+    font-size: 18px;
+}
+.mark-text {
+    color: #EDB6A3;
+}
+.crab-info-container {
+    margin-bottom: 18px;
+}
+
+.image-frame, .image-frame > img {
+    margin: 0; padding: 0;
+    border: 0;
+}
+
+.image-frame {
+    position: relative;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}
+
+.image-frame:after {
+    position: absolute;
+    left: 0; top: 0; right: 0; bottom: 0;
+    -moz-box-shadow: inset 0px 0px 15px 15px #FCFFEB;
+    -webkit-box-shadow: inset 0px 0px 15px 15px #FCFFEB;
+    box-shadow: inset 0px 0px 15px 15px #FCFFEB;
+    content: " ";
+}
