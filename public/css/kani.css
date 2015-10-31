@@ -25,6 +25,12 @@ thead {
     background-color: #EDB6A3;
     color: #FCFFEB;
 }
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
 
 .clear {
     clear: both;
@@ -45,6 +51,9 @@ thead {
 .table-head-sub th {
     background-color: #736040;
     color: #FCFFEB;
+}
+.text-link:hover {
+    text-decoration: underline;
 }
 .site-popular-product-head {
     font-size: 20px;
@@ -88,11 +97,15 @@ thead {
     filter:alpha(opacity=70);
     -ms-filter: "alpha( opacity=70 )";
 }
-
-@media (max-width: 1020px) and (min-width: 768px) {
+.redirect-head-padding {
+    padding-top: 50px;
+}
+.administrator-info {
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1020px) and (min-width: 768px) {
     body {
         font-size: 12px;
     }
@@ -113,12 +126,82 @@ thead {
     .btn-detail {
         padding-left: 20px;
         padding-right: 20px;
-        margin-left: 0px;
+        margin-left: 10%;
         font-size: 12px;
     }
     .btn-purchase {
         height: 54px;
         font-size: 14px !important;
+    }
+    .image-frame:after {
+        -moz-box-shadow: inset 0px 0px 4px 4px #FCFFEB;
+        -webkit-box-shadow: inset 0px 0px 4px 4px #FCFFEB;
+        box-shadow: inset 0px 0px 4px 4px #FCFFEB;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 375px) {
+    body {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 26px;
+        height: 56px;
+        padding-top: 14px;
+    }
+    h2 {
+        font-size: 24px;
+        padding-top: 7px;
+        padding-left: 5px;
+        height: 42px;
+    }
+    .explain {
+        margin-top: 10px;
+    }
+    .btn-detail {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 10%;
+        font-size: 12px;
+    }
+    .btn-purchase {
+        height: 54px;
+        font-size: 14px !important;
+    }
+    .image-frame:after {
+        -moz-box-shadow: inset 0px 0px 4px 4px #FCFFEB;
+        -webkit-box-shadow: inset 0px 0px 4px 4px #FCFFEB;
+        box-shadow: inset 0px 0px 4px 4px #FCFFEB;
+    }
+}
+
+@media (max-width: 374px) {
+    body {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 26px;
+        height: 56px;
+        padding-top: 14px;
+    }
+    h2 {
+        font-size: 24px;
+        padding-top: 7px;
+        padding-left: 5px;
+        height: 42px;
+    }
+    .explain {
+        margin-top: 10px;
+    }
+    .btn-detail {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 0%;
+        font-size: 12px;
+    }
+    .btn-purchase {
+        height: 54px;
+        font-size: 10px !important;
     }
     .image-frame:after {
         -moz-box-shadow: inset 0px 0px 4px 4px #FCFFEB;
