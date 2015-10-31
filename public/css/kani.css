@@ -1,53 +1,128 @@
 body {
     background-color: #FCFFEB;
     font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN',Meiryo, sans-serif;
+    font-size: 18px;
 }
 h1 {
-    background-color: #CBAC88;
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", 'Lucida Grande','Hiragino Kaku Gothic ProN',Meiryo, sans-serif;
+    font-size: 46px;
+    font-weight: bold;
+    background-color: #000000;
     color: #FCFFEB;
     height: 80px;
-    padding-top: 20px;
+    padding-top: 14px;
 }
 h2 {
-    background-color: #EDB6A3;
+    background-color: #b80000;
     color: #FCFFEB;
     height: 50px;
+}
+h2:hover {
+    cursor: pointer;
+    background-color: #e02828;
 }
 thead {
     background-color: #EDB6A3;
     color: #FCFFEB;
 }
 
+.clear {
+    clear: both;
+}
 .sub-container {
     margin-top: 20px;
 }
-.explain {
+.mark-text {
+    color: #b80000;
+}
+.site-desc {
+    margin-top: 10px;
+}
+.table-head-main th {
+    background-color: #000000;
+    color: #FCFFEB;
+}
+.table-head-sub th {
+    background-color: #736040;
+    color: #FCFFEB;
+}
+.site-popular-product-head {
+    font-size: 20px;
+}
+.btn {
     font-size: 18px;
 }
-.mark-text {
-    color: #EDB6A3;
+.btn-detail {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 80px;
+}
+.btn-purchase {
+    height: 64px;
+    font-size: 26px !important;
 }
 .crab-info-container {
     margin-bottom: 18px;
 }
-
 .image-frame, .image-frame > img {
     margin: 0; padding: 0;
     border: 0;
 }
-
 .image-frame {
     position: relative;
     display: inline-block;
     font-size: 0;
     line-height: 0;
 }
-
 .image-frame:after {
     position: absolute;
     left: 0; top: 0; right: 0; bottom: 0;
-    -moz-box-shadow: inset 0px 0px 15px 15px #FCFFEB;
-    -webkit-box-shadow: inset 0px 0px 15px 15px #FCFFEB;
-    box-shadow: inset 0px 0px 15px 15px #FCFFEB;
+    -moz-box-shadow: inset 0px 0px 8px 8px #FCFFEB;
+    -webkit-box-shadow: inset 0px 0px 8px 8px #FCFFEB;
+    box-shadow: inset 0px 0px 8px 8px #FCFFEB;
     content: " ";
+}
+.img-link:hover {
+    cursor: pointer;
+    opacity:0.7;
+    filter:alpha(opacity=70);
+    -ms-filter: "alpha( opacity=70 )";
+}
+
+@media (max-width: 1020px) and (min-width: 768px) {
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 26px;
+        height: 56px;
+        padding-top: 14px;
+    }
+    h2 {
+        font-size: 24px;
+        padding-top: 7px;
+        padding-left: 5px;
+        height: 42px;
+    }
+    .explain {
+        margin-top: 10px;
+    }
+    .btn-detail {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0px;
+        font-size: 12px;
+    }
+    .btn-purchase {
+        height: 54px;
+        font-size: 14px !important;
+    }
+    .image-frame:after {
+        -moz-box-shadow: inset 0px 0px 4px 4px #FCFFEB;
+        -webkit-box-shadow: inset 0px 0px 4px 4px #FCFFEB;
+        box-shadow: inset 0px 0px 4px 4px #FCFFEB;
+    }
 }
