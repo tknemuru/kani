@@ -97,6 +97,9 @@ a:hover {
     filter:alpha(opacity=70);
     -ms-filter: "alpha( opacity=70 )";
 }
+.rank-span {
+    height: 40px;
+}
 .redirect-head-padding {
     padding-top: 50px;
 }
@@ -208,4 +211,11 @@ a:hover {
         -webkit-box-shadow: inset 0px 0px 4px 4px #FCFFEB;
         box-shadow: inset 0px 0px 4px 4px #FCFFEB;
     }
+}
+
+@media all and (-ms-high-contrast:none){
+  .table {
+    display: table;
+    table-layout: fixed;
+  }
 }
