@@ -141,6 +141,9 @@ a:hover {
         -webkit-box-shadow: inset 0px 0px 4px 4px #FCFFEB;
         box-shadow: inset 0px 0px 4px 4px #FCFFEB;
     }
+    .pc-only-container {
+        display: none;
+    }
 }
 
 @media (max-width: 767px) and (min-width: 375px) {
@@ -176,6 +179,9 @@ a:hover {
         -webkit-box-shadow: inset 0px 0px 4px 4px #FCFFEB;
         box-shadow: inset 0px 0px 4px 4px #FCFFEB;
     }
+    .pc-only-container {
+        display: none;
+    }
 }
 
 @media (max-width: 374px) {
@@ -210,6 +216,9 @@ a:hover {
         -moz-box-shadow: inset 0px 0px 4px 4px #FCFFEB;
         -webkit-box-shadow: inset 0px 0px 4px 4px #FCFFEB;
         box-shadow: inset 0px 0px 4px 4px #FCFFEB;
+    }
+    .pc-only-container {
+        display: none;
     }
 }
 
