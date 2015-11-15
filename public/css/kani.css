@@ -107,6 +107,10 @@ a:hover {
     padding-top: 10px;
     padding-bottom: 20px;
 }
+.table {
+display: table;
+table-layout: fixed;
+}
 
 @media (max-width: 1020px) and (min-width: 768px) {
     body {
@@ -220,11 +224,4 @@ a:hover {
     .pc-only-container {
         display: none;
     }
-}
-
-@media all and (-ms-high-contrast:none){
-  .table {
-    display: table;
-    table-layout: fixed;
-  }
 }
